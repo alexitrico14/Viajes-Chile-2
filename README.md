@@ -18,3 +18,7 @@ Carrusel Añadido a la rama Dev
 Se añadio contenido dando cuerpo a la web. No se ha estilizado aun, tarea para el **Alex del futuro**  
 Se añadio Font Awasome al final del body con un <script>  
 Se agregaron cards e imagenes  
+
+##### Fecha: 10-07-2024  
+*18:12*
+Se subió la web del *dev* al *main* con los avances de la web. **Viajes Chiles v0.2**
