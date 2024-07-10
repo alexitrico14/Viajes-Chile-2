@@ -7,3 +7,6 @@
 *22:07*
 Iniciando con una monster y wena musica. Espero que quede bonito  
 Subido el primer Commit
+
+*22:32*
+Agregué contenido a la web, tamien un NavBar transparente con CSS (!important usado)
