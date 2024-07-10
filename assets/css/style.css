@@ -1,13 +1,14 @@
-body  {
+body {
     margin: 0;
     padding: 0;
-    background: #0e373d;
+    /* background: #0e373d; */
+    background: linear-gradient(180deg, hsl(180, 100%, 50%), hsl(0, 0%, 21%));
     color: #FFF;
 }
 
 /* NAVBAR */
 .navbar-transparent {
-    background-color: #35353518 !important;
+    background-color: hsla(0, 0%, 21%, 0.094) !important;
 }
 
 nav img {
@@ -16,30 +17,75 @@ nav img {
 }
 
 /* HEADER */
-header img{
+header img {
     height: 100%;
 }
 
 /* QUIENES SOMOS */
-#quienes-somos{
+#quienes-somos {
     padding: 100px;
 
     color: #FFF;
 }
-.bar-q{
-    background-color: aqua;
+
+.bar-q {
+    background-color: hsl(180, 100%, 50%);
     color: #fff;
     text-align: center;
+    box-shadow: 0px 1px 11px 0px #000;
 }
+
+.sw-box {
+    padding: 10px;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.sw-box:hover {
+    box-shadow: 0px 20px 20px 0px #000;
+    animation: shadowAnimation 0.1s ease-in-out;
+}
+
+@keyframes shadowAnimation {
+    0% {
+        box-shadow: 0px 0px 0px 0px #000;
+    }
+    100% {
+        box-shadow: 0px 20px 20px 0px #000;
+    }
+}
+
+.bar-q i {
+    color: #000;
+    font-size: 2em
+}
+
 /* DESTACADOS */
+.sw-box-des {
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.sw-box-des:hover{
+    box-shadow: 0px 5px 9px 0px #000;
+    animation: shadowAnimation 0.1s ease-in-out;
+}
+
+@keyframes shadowAnimationDesc {
+    0% {
+        box-shadow: 0px 0px 0px 0px #000;
+    }
+    100% {
+        box-shadow: 0px 5px 9px 0px #000;
+    }
+}
+
 .fixed-height {
-    height: 200px; 
+    height: 200px;
     object-fit: cover;
-    width: 100%; 
+    width: 100%;
 }
 
 /* fOOTER */
 footer {
-    background: #05deff;
-    color: #000;
+    background: #171717;
+    color: #FFF;
 }
