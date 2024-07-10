@@ -4,6 +4,7 @@ body  {
     
 }
 
+/* NAVBAR */
 .navbar-transparent {
     background-color: transparent !important;
 }
@@ -11,4 +12,9 @@ body  {
 nav img {
     width: 50px;
     margin-right: 20px;
+}
+
+/* HEADER */
+header img{
+    height: 100%;
 }
