@@ -10,3 +10,6 @@ Subido el primer Commit
 
 *22:32*
 Agregué contenido a la web, tamien un NavBar transparente con CSS (!important usado)
+
+*22:52*
+Carrusel Añadido a la rama Dev
