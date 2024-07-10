@@ -1,7 +1,8 @@
 body  {
     margin: 0;
     padding: 0;
-    
+    background: #0e373d;
+    color: #FFF;
 }
 
 /* NAVBAR */
@@ -17,4 +18,28 @@ nav img {
 /* HEADER */
 header img{
     height: 100%;
+}
+
+/* QUIENES SOMOS */
+#quienes-somos{
+    padding: 100px;
+
+    color: #FFF;
+}
+.bar-q{
+    background-color: aqua;
+    color: #fff;
+    text-align: center;
+}
+/* DESTACADOS */
+.fixed-height {
+    height: 200px; 
+    object-fit: cover;
+    width: 100%; 
+}
+
+/* fOOTER */
+footer {
+    background: #05deff;
+    color: #000;
 }
