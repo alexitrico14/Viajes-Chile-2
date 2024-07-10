@@ -13,3 +13,8 @@ Agregué contenido a la web, tamien un NavBar transparente con CSS (!important u
 
 *22:52*
 Carrusel Añadido a la rama Dev
+
+*0:48*
+Se añadio contenido dando cuerpo a la web. No se ha estilizado aun, tarea para el **Alex del futuro**  
+Se añadio Font Awasome al final del body con un <script>  
+Se agregaron cards e imagenes  
