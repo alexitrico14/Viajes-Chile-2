@@ -28,5 +28,4 @@ Subido otro pull desde *dev* al *main* con un Fix del box-shadow + implementacio
 
 *23:48* 
 Se subio version de web con Fuentes de Google Font
-=======
 
