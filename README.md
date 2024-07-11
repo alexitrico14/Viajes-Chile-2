@@ -25,3 +25,8 @@ Se subió la web del *dev* al *main* con los avances de la web. **Viajes Chiles 
 
 *20:11*
 Subido otro pull desde *dev* al *main* con un Fix del box-shadow + implementacion de más contenido interactivo **JS**  
+
+*23:48* 
+Se subio version de web con Fuentes de Google Font
+=======
+
