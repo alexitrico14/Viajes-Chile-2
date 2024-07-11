@@ -23,6 +23,10 @@ Se agregaron cards e imagenes
 *18:12*
 Se subió la web del *dev* al *main* con los avances de la web. **Viajes Chiles v0.2**
 
+##### Fecha: 11-07-2024
+*18:15*
+Se subio mejoras en el alt, tooltip y redes sociales. NavBar se oscurece al hacer hover
+
 *20:11*
 Subido otro pull desde *dev* al *main* con un Fix del box-shadow + implementacion de más contenido interactivo **JS**  
 
