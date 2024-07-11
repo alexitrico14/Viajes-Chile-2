@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    /* background: #0e373d; */
     background: linear-gradient(180deg, hsl(180, 100%, 50%), hsl(0, 0%, 21%));
     color: #FFF;
     font-family: "DM Sans", sans-serif;
@@ -11,13 +10,19 @@ h1, h2, h3 {
     font-family: "Fjalla One", sans-serif;
 }
 /* NAVBAR */
-.navbar-transparent {
-    background-color: hsla(0, 0%, 21%, 0.094) !important;
-}
 
 nav img {
     width: 50px;
     margin-right: 20px;
+}
+
+.navbar-hover {
+    background-color: #363636a9;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-hover:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* HEADER */
