@@ -64,9 +64,9 @@ header img {
     transition: box-shadow 0.5s ease-in-out;
 }
 
-.sw-box-des:hover{
+.sw-box-des:hover {
     box-shadow: 0px 5px 9px 0px #000;
-    animation: shadowAnimation 0.1s ease-in-out;
+    animation: shadowAnimationDesc 0.5s ease-in-out;
 }
 
 @keyframes shadowAnimationDesc {
@@ -88,4 +88,18 @@ header img {
 footer {
     background: #171717;
     color: #FFF;
+}
+
+a {
+    text-decoration: none; 
+}
+
+a i {
+    color: #fff; 
+}
+
+a:hover i,
+a:focus i,
+a:active i {
+    color: #fff;
 }
