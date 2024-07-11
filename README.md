@@ -22,3 +22,6 @@ Se agregaron cards e imagenes
 ##### Fecha: 10-07-2024  
 *18:12*
 Se subió la web del *dev* al *main* con los avances de la web. **Viajes Chiles v0.2**
+
+*20:11*
+Subido otro pull desde *dev* al *main* con un Fix del box-shadow + implementacion de más contenido interactivo **JS**  
