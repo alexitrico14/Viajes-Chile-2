@@ -16,7 +16,7 @@
 
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-transparent">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-transparent">
         <div class="container-fluid">
             <img src="./assets/img/viajes.svg" alt="Logo Viajes chile">
             <a class="navbar-brand lobster" href="#">Viajes chile</a>
@@ -116,9 +116,9 @@
                 DESTACADOS
             </h3>
             <div class="row">
-                <div class="col-3 sw-box-des">
-                    <div class="card">
-                        <img src="./assets/img/card1.jpg" class="card-img-top fixed-height" alt="...">
+                <div class="col-3 ">
+                    <div class="card sw-box-des">
+                        <img src="./assets/img/card1.jpg" class="card-img-top fixed-height" alt="..." data-bs-toggle="tooltip" data-bs-placement="top" title="Arreglar Alt y Tooltip">
                         <div class="card-body">
                             <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
@@ -127,9 +127,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 sw-box-des">
-                    <div class="card">
-                        <img src="./assets/img/card2.jpg" class="card-img-top fixed-height" alt="...">
+                <div class="col-3 ">
+                    <div class="card sw-box-des">
+                        <img src="./assets/img/card2.jpg" class="card-img-top fixed-height" alt="..." data-bs-toggle="tooltip" data-bs-placement="top" title="Arreglar Alt y Tooltip">
                         <div class="card-body">
                             <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -138,9 +138,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 sw-box-des">
-                    <div class="card">
-                        <img src="./assets/img/card3.jpg" class="card-img-top fixed-height" alt="...">
+                <div class="col-3">
+                    <div class="card sw-box-des">
+                        <img src="./assets/img/card3.jpg" class="card-img-top fixed-height" alt="..." data-bs-toggle="tooltip" data-bs-placement="top" title="Arreglar Alt y Tooltip">
                         <div class="card-body">
                             <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -149,9 +149,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 sw-box-des">
-                    <div class="card">
-                        <img src="./assets/img/card4.jpg" class="card-img-top fixed-height" alt="...">
+                <div class="col-3">
+                    <div class="card sw-box-des">
+                        <img src="./assets/img/card4.jpg" class="card-img-top fixed-height" alt="..." data-bs-toggle="tooltip" data-bs-placement="top" title="Arreglar Alt y Tooltip">
                         <div class="card-body">
                             <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -192,10 +192,18 @@
                 <span>Viajes Chile</span>
             </div>
             <div class="col-6">
-                <i class="fa-brands fa-square-github"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-square-x-twitter"></i>
-                <i class="fa-brands fa-square-facebook"></i>
+                <a href="https://github.com/alexitrico14">
+                    <i class="fa-brands fa-square-github" target="_blank" class="text-white" ></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-linkedin" target="_blank" class="text-white"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-square-x-twitter" target="_blank" class="text-white"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-square-facebook" target="_blank" class="text-white"></i>
+                </a>
             </div>
         </div>
     </footer>
@@ -209,6 +217,8 @@
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
         integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+        <!-- JS LOCAL -->
+    <script src="./assets/js/scripts.js"></script>
 </body>
 
 </html>
