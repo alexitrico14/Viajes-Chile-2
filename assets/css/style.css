@@ -4,8 +4,12 @@ body {
     /* background: #0e373d; */
     background: linear-gradient(180deg, hsl(180, 100%, 50%), hsl(0, 0%, 21%));
     color: #FFF;
+    font-family: "DM Sans", sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: "Fjalla One", sans-serif;
+}
 /* NAVBAR */
 .navbar-transparent {
     background-color: hsla(0, 0%, 21%, 0.094) !important;
