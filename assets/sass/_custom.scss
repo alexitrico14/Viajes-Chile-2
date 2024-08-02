@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     background: linear-gradient(180deg, hsl(180, 100%, 50%), hsl(0, 0%, 21%));
     color: #FFF;
     font-family: "DM Sans", sans-serif;

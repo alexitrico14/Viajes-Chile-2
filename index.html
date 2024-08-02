@@ -6,11 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viajes Chile</title>
     <link rel="shortcut icon" href="./assets/img/viajes.svg" type="image/x-icon">
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,34 +43,56 @@
     </nav>
 
     <!-- HEADER -->
-    <Header>
-        <div class="row">
+    <Header class="container ">
+        <div class="row ">
             <div class="col-12">
-                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                            <img src="./assets/img/carousel1.jpg" class="d-block w-100 rounded" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                            <img src="./assets/img/carousel2.jpg" class="d-block w-100 rounded" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                            <img src="./assets/img/carousel3.jpg" class="d-block w-100 rounded" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Anterior</span>
+                        <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Siguiente</span>
+                        <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+
             </div>
         </div>
+
 
     </Header>
 
@@ -84,42 +103,19 @@
                 ¿QUIÉNES SOMOS?
             </h3>
         </div>
-        <div class="row">
-            <div class="col-4">
-                <div class="bar-q py-2">
-                    <i class="fa-solid fa-plane"></i>
-                </div>
-                <div class="sw-box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem adipisci officiis
-                        voluptatibus distinctio incidunt, doloribus commodi natus voluptate ea beatae fugit dignissimos
-                        eius quod hic quibusdam non iusto repudiandae? Tenetur minus obcaecati praesentium consequuntur,
-                        ipsam sunt soluta cupiditate cum nihil inventore ratione, aliquam esse magnam laboriosam
-                        sapiente quidem ab eius ea odit earum atque iusto repudiandae commodi corporis. Aliquam.</p>
-                </div>
+        <div class="row pt-5 border-top border-3">
+            <div class="col-6">
+                <img class="w-100 rounded" src="./assets/img/quienes-somos.jpg" alt="">
             </div>
-            <div class="col-4">
-                <div class="sw-box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem adipisci officiis
-                        voluptatibus distinctio incidunt, doloribus commodi natus voluptate ea beatae fugit dignissimos
-                        eius quod hic quibusdam non iusto repudiandae? Tenetur minus obcaecati praesentium consequuntur,
-                        ipsam sunt soluta cupiditate cum nihil inventore ratione, aliquam esse magnam laboriosam
-                        sapiente quidem ab eius ea odit earum atque iusto repudiandae commodi corporis. Aliquam.</p>
-                </div>
-                <div class="bar-q py-2">
-                    <i class="fa-solid fa-mountain"></i>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="bar-q py-2">
-                    <i class="fa-solid fa-route"></i>
-                </div>
-                <div class="sw-box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem adipisci officiis
-                        voluptatibus distinctio incidunt, doloribus commodi natus voluptate ea beatae fugit dignissimos
-                        eius quod hic quibusdam non iusto repudiandae? Tenetur minus obcaecati praesentium consequuntur,
-                        ipsam sunt soluta cupiditate cum nihil inventore ratione, aliquam esse magnam laboriosam
-                        sapiente quidem ab eius ea odit earum atque iusto repudiandae commodi corporis. Aliquam.lum.
-                </div>
+            <div class="col-6 align-self-center">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt beatae aperiam iusto! Fugit unde non
+                    minus provident in, vero id nihil, mollitia incidunt a cupiditate. Repellat placeat libero
+                    repellendus veritatis provident architecto cupiditate, ipsa aspernatur ullam tempora quia aperiam
+                    nihil totam mollitia nostrum distinctio. Reprehenderit omnis blanditiis impedit culpa eos!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt beatae aperiam iusto! Fugit unde non
+                    minus provident in, vero id nihil, mollitia incidunt a cupiditate. Repellat placeat libero
+                    repellendus veritatis provident architecto cupiditate, ipsa aspernatur ullam tempora quia aperiam
+                    nihil totam mollitia nostrum distinctio. Reprehenderit omnis blanditiis impedit culpa eos!</p>
             </div>
         </div>
     </section>
@@ -130,8 +126,9 @@
             <h3 class="text-center py-2">
                 DESTACADOS
             </h3>
-            <div class="row">
-                <div class="col-12 col-sm-6 col-md-3  py-2">
+            <div class="row pt-5 border-top border-3">
+
+                <div class="col-12 col-sm-6 col-md-6  py-2">
                     <div class="card sw-box-des">
                         <img src="./assets/img/card1.jpg" class="card-img-top fixed-height" alt="Torres del Paine"
                             data-bs-toggle="tooltip" data-bs-placement="top" title="Parque Nacional Torres del Paine">
@@ -141,9 +138,12 @@
                                 blanditiis molestiae velit quasi, nihil molestias inventore magnam neque illum eaque?
                             </p>
                         </div>
+                        <div class="card-footer">
+                            Card Footer
+                        </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3  py-2">
+                <div class="col-12 col-sm-6 col-md-6  py-2">
                     <div class="card sw-box-des">
                         <img src="./assets/img/card2.jpg" class="card-img-top fixed-height" alt="Decierto de Atacama"
                             data-bs-toggle="tooltip" data-bs-placement="top" title="Desierto de Atacama">
@@ -153,9 +153,12 @@
                                 Exercitationem perferendis quis quaerat voluptatem a aspernatur earum tempora, culpa
                                 nisi quisquam!</p>
                         </div>
+                        <div class="card-footer">
+                            Card Footer
+                        </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3  py-2">
+                <div class="col-12 col-sm-6 col-md-6  py-2">
                     <div class="card sw-box-des">
                         <img src="./assets/img/card3.jpg" class="card-img-top fixed-height" alt="Salar de atacama"
                             data-bs-toggle="tooltip" data-bs-placement="top" title="Salar de Atacama">
@@ -165,9 +168,12 @@
                                 Exercitationem perferendis quis quaerat voluptatem a aspernatur earum tempora, culpa
                                 nisi quisquam!</p>
                         </div>
+                        <div class="card-footer">
+                            Card Footer
+                        </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3  py-2">
+                <div class="col-12 col-sm-6 col-md-6  py-2">
                     <div class="card sw-box-des">
                         <img src="./assets/img/card4.jpg" class="card-img-top fixed-height" alt="Selva Valdiviana"
                             data-bs-toggle="tooltip" data-bs-placement="top" title="Selva Valdiviana">
@@ -177,11 +183,84 @@
                                 Exercitationem perferendis quis quaerat voluptatem a aspernatur earum tempora, culpa
                                 nisi quisquam!</p>
                         </div>
+                        <div class="card-footer">
+                            Card Footer
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- SECCION TESTIMONIO -->
+    <section class="container ">
+        <h3 class="text-center mb-5">Testimonios</h3>
+        <div class="row border-top border-3 py-3">
+
+            <!-- Testimonio 1 -->
+            <div class="col-md-4 mb-2">
+                <div class="h-100">
+                    <div class="card-body text-center">
+                        <blockquote class="blockquote mb-4">
+                            <p class="mb-0 fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus
+                                minima eaque officia eligendi nihil ab voluptate esse. Molestiae officiis ipsum maxime
+                                cum laboriosam numquam reprehenderit quas iusto, recusandae omnis.</p>
+                        </blockquote>
+                        <img src="./assets/img/testimonio1.jpg" class="rounded-circle mb-3" alt="Cliente 1" width="100"
+                            height="100">
+                        <div>
+                            <p>
+                                Mariela
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonio 2 -->
+            <div class="col-md-4 mb-2">
+                <div class="h-100">
+                    <div class="card-body text-center">
+                        <blockquote class="blockquote mb-4">
+                            <p class="mb-0 fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus
+                                minima eaque officia eligendi nihil ab voluptate esse. Molestiae officiis ipsum maxime
+                                cum laboriosam numquam reprehenderit quas iusto, recusandae omnis.</p>
+                        </blockquote>
+                        <img src="./assets/img/testimonio2.jpg" class="rounded-circle mb-3" alt="Cliente 2" width="100"
+                            height="100">
+                        <div>
+                            <p>
+                                Christian
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonio 3 -->
+            <div class="col-md-4 mb-2">
+                <div class="h-100">
+                    <div class="card-body text-center">
+                        <blockquote class="blockquote mb-4">
+                            <p class="mb-0 fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus
+                                minima eaque officia eligendi nihil ab voluptate esse. Molestiae officiis ipsum maxime
+                                cum laboriosam numquam reprehenderit quas iusto, recusandae omnis.</p>
+                        </blockquote>
+                        <img src="./assets/img//testimonio3.jpg" class="rounded-circle mb-3" alt="Cliente 3" width="100"
+                            height="100">
+                        <div>
+                            <p>
+                                Fernanda
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCION TESTIMONIO -->
 
     <!-- SECCION CONTACTO -->
     <section class="container py-4" id="contacto">
@@ -189,50 +268,77 @@
             <h3 class="text-center ">
                 CONTACTO
             </h3>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre Completo">
+            <div class="row py-4 border-top border-3">
+                <div class="col-12 col-sm-12 col-md-6 py-4">
+                    <div class="row">
+
+                        <div class="col-6 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Nombre Completo">
+                        </div>
+                        <div class="col-6 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 d-flex">
+                    <div class="align-self-center">
+                        <div class="d-flex">
+                            <i class="fa-solid fa-phone p-2"></i>
+                            <p>+56 9 9988 7766</p>
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-envelope p-2"></i>
+                            <p>contacto@viajeschile.com</p>
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-brands fa-linkedin p-2"></i>
+                            <p>ViajesChile</p>
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-brands fa-instagram p-2"></i>
+                            <p>viajes_chile</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Asunto</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Asunto">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <button type="button" class="btn btn-primary">Enviar</button>
-        </div>
     </section>
-<!-- FOOTER -->
-<footer>
-    <div class="row text-center display-6 fw-bold py-3">
-        <div class="col-6">
-            <span>Viajes Chile</span>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="row text-center display-6 fw-bold py-3">
+            <div class="col-6">
+                <span>Viajes Chile</span>
+            </div>
+            <div class="col-6">
+                <a href="https://github.com/alexitrico14" target="_blank">
+                    <i class="fa-brands fa-square-github text-white" data-bs-toggle="tooltip" title="Síguenos!"></i>
+                </a>
+                <a href="https://cl.linkedin.com" target="_blank">
+                    <i class="fa-brands fa-linkedin text-white" data-bs-toggle="tooltip" title="Síguenos!"></i>
+                </a>
+                <a href="https://x.com/home" target="_blank">
+                    <i class="fa-brands fa-square-x-twitter text-white" data-bs-toggle="tooltip" title="Síguenos!"></i>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa-brands fa-square-facebook text-white" data-bs-toggle="tooltip" title="Síguenos!"></i>
+                </a>
+            </div>
         </div>
-        <div class="col-6">
-            <a href="https://github.com/alexitrico14" target="_blank">
-                <i class="fa-brands fa-square-github text-white" data-bs-toggle="tooltip" title="Síguenos!"></i>
-            </a>
-            <a href="https://cl.linkedin.com" target="_blank">
-                <i class="fa-brands fa-linkedin text-white" data-bs-toggle="tooltip" title="Síguenos!"></i>
-            </a>
-            <a href="https://x.com/home" target="_blank">
-                <i class="fa-brands fa-square-x-twitter text-white" data-bs-toggle="tooltip" title="Síguenos!"></i>
-            </a>
-            <a href="https://www.facebook.com/" target="_blank">
-                <i class="fa-brands fa-square-facebook text-white" data-bs-toggle="tooltip" title="Síguenos!"></i>
-            </a>
-        </div>
-    </div>
-</footer>
+    </footer>
 
     <!-- Font Awasome -->
     <script src="https://kit.fontawesome.com/5b3e632e12.js" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <script type="module" src="./assets/js/index.js"></script>
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
         integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
