@@ -97,17 +97,17 @@
     </Header>
 
     <!-- SECCION QUIENES SOMOS -->
-    <section class="container justify-content-center d-none d-md-block" id="quienes-somos">
+    <section class="container justify-content-center" id="quienes-somos">
         <div>
             <h3 class="text-center fw-bold">
                 ¿QUIÉNES SOMOS?
             </h3>
         </div>
         <div class="row pt-5 border-top border-3">
-            <div class="col-6">
+            <div class="col-md-6 d-none d-md-block">
                 <img class="w-100 rounded" src="./assets/img/quienes-somos.jpg" alt="">
             </div>
-            <div class="col-6 align-self-center">
+            <div class="col-md-6 col-12 align-self-center">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt beatae aperiam iusto! Fugit unde non
                     minus provident in, vero id nihil, mollitia incidunt a cupiditate. Repellat placeat libero
                     repellendus veritatis provident architecto cupiditate, ipsa aspernatur ullam tempora quia aperiam
@@ -121,76 +121,84 @@
     </section>
 
     <!-- SECCION DESTACADO -->
-    <section class="container py-3" id="destacados">
-        <div>
-            <h3 class="text-center py-2">
-                DESTACADOS
-            </h3>
-            <div class="row pt-5 border-top border-3">
-
-                <div class="col-12 col-sm-6 col-md-6  py-2">
-                    <div class="card sw-box-des">
-                        <img src="./assets/img/card1.jpg" class="card-img-top fixed-height" alt="Torres del Paine"
-                            data-bs-toggle="tooltip" data-bs-placement="top" title="Parque Nacional Torres del Paine">
-                        <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-                                blanditiis molestiae velit quasi, nihil molestias inventore magnam neque illum eaque?
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            Card Footer
-                        </div>
+<section class="container py-3" id="destacados">
+    <div>
+        <h3 class="text-center py-2">
+            DESTACADOS
+        </h3>
+        <div class="row pt-5 border-top border-3">
+            <div class="col-lg-3 col-md-6 col-12 py-2">
+                <div class="card sw-box-des">
+                    <img src="./assets/img/card1.jpg" class="card-img-top fixed-height" alt="Torres del Paine"
+                        data-bs-toggle="tooltip" data-bs-placement="top" title="Parque Nacional Torres del Paine">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+                            blanditiis molestiae velit quasi, nihil molestias inventore magnam neque illum eaque?
+                        </p>
                     </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6  py-2">
-                    <div class="card sw-box-des">
-                        <img src="./assets/img/card2.jpg" class="card-img-top fixed-height" alt="Decierto de Atacama"
-                            data-bs-toggle="tooltip" data-bs-placement="top" title="Desierto de Atacama">
-                        <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
-                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Exercitationem perferendis quis quaerat voluptatem a aspernatur earum tempora, culpa
-                                nisi quisquam!</p>
+                    <div class="card-footer d-flex">
+                        <div class="mx-3">
+                            <i class="fa-solid fa-plane fa-rotate-270" style="color: #000000;"></i>
                         </div>
-                        <div class="card-footer">
-                            Card Footer
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6  py-2">
-                    <div class="card sw-box-des">
-                        <img src="./assets/img/card3.jpg" class="card-img-top fixed-height" alt="Salar de atacama"
-                            data-bs-toggle="tooltip" data-bs-placement="top" title="Salar de Atacama">
-                        <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
-                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Exercitationem perferendis quis quaerat voluptatem a aspernatur earum tempora, culpa
-                                nisi quisquam!</p>
-                        </div>
-                        <div class="card-footer">
-                            Card Footer
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6  py-2">
-                    <div class="card sw-box-des">
-                        <img src="./assets/img/card4.jpg" class="card-img-top fixed-height" alt="Selva Valdiviana"
-                            data-bs-toggle="tooltip" data-bs-placement="top" title="Selva Valdiviana">
-                        <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
-                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Exercitationem perferendis quis quaerat voluptatem a aspernatur earum tempora, culpa
-                                nisi quisquam!</p>
-                        </div>
-                        <div class="card-footer">
-                            Card Footer
+                        <div class="d-flex justify-content-around">
+                            <p>Vuelos desde:</p>
+                            <p>$300.000</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="col-lg-3 col-md-6 col-12 py-2">
+                <div class="card sw-box-des">
+                    <img src="./assets/img/card2.jpg" class="card-img-top fixed-height" alt="Desierto de Atacama"
+                        data-bs-toggle="tooltip" data-bs-placement="top" title="Desierto de Atacama">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Exercitationem perferendis quis quaerat voluptatem a aspernatur earum tempora, culpa
+                            nisi quisquam!</p>
+                    </div>
+                    <div class="card-footer">
+                        <i class="fa-solid fa-plane fa-rotate-270" style="color: #000000;"></i> Card Footer
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 py-2">
+                <div class="card sw-box-des">
+                    <img src="./assets/img/card3.jpg" class="card-img-top fixed-height" alt="Salar de Atacama"
+                        data-bs-toggle="tooltip" data-bs-placement="top" title="Salar de Atacama">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Exercitationem perferendis quis quaerat voluptatem a aspernatur earum tempora, culpa
+                            nisi quisquam!</p>
+                    </div>
+                    <div class="card-footer">
+                        <i class="fa-solid fa-plane fa-rotate-270" style="color: #000000;"></i> Card Footer
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 py-2">
+                <div class="card sw-box-des">
+                    <img src="./assets/img/card4.jpg" class="card-img-top fixed-height" alt="Selva Valdiviana"
+                        data-bs-toggle="tooltip" data-bs-placement="top" title="Selva Valdiviana">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Exercitationem perferendis quis quaerat voluptatem a aspernatur earum tempora, culpa
+                            nisi quisquam!</p>
+                    </div>
+                    <div class="card-footer">
+                        <i class="fa-solid fa-plane fa-rotate-270" style="color: #000000;"></i> Card Footer
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
+
+
+    
 
     <!-- SECCION TESTIMONIO -->
     <section class="container ">
@@ -202,7 +210,8 @@
                 <div class="h-100">
                     <div class="card-body text-center">
                         <blockquote class="blockquote mb-4">
-                            <p class="mb-0 fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus
+                            <p class="mb-0 fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                                repellendus
                                 minima eaque officia eligendi nihil ab voluptate esse. Molestiae officiis ipsum maxime
                                 cum laboriosam numquam reprehenderit quas iusto, recusandae omnis.</p>
                         </blockquote>
@@ -222,7 +231,8 @@
                 <div class="h-100">
                     <div class="card-body text-center">
                         <blockquote class="blockquote mb-4">
-                            <p class="mb-0 fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus
+                            <p class="mb-0 fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                                repellendus
                                 minima eaque officia eligendi nihil ab voluptate esse. Molestiae officiis ipsum maxime
                                 cum laboriosam numquam reprehenderit quas iusto, recusandae omnis.</p>
                         </blockquote>
@@ -242,7 +252,8 @@
                 <div class="h-100">
                     <div class="card-body text-center">
                         <blockquote class="blockquote mb-4">
-                            <p class="mb-0 fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus
+                            <p class="mb-0 fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                                repellendus
                                 minima eaque officia eligendi nihil ab voluptate esse. Molestiae officiis ipsum maxime
                                 cum laboriosam numquam reprehenderit quas iusto, recusandae omnis.</p>
                         </blockquote>
@@ -338,7 +349,9 @@
     <!-- Font Awasome -->
     <script src="https://kit.fontawesome.com/5b3e632e12.js" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
-    <script type="module" src="./assets/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
         integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
