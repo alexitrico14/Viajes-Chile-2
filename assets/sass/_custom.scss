@@ -113,3 +113,16 @@ a:focus i,
 a:active i {
     color: #fff;
 }
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-item img {
+      height: 300px;
+    }
+  }
+
+  
