@@ -12059,26 +12059,6 @@ header img {
   width: 100%;
 }
 
-/* fOOTER */
-footer {
-  background: #171717;
-  color: #FFF;
-}
-
-a {
-  text-decoration: none;
-}
-
-a i {
-  color: #fff;
-}
-
-a:hover i,
-a:focus i,
-a:active i {
-  color: #fff;
-}/*# sourceMappingURL=main.css.map */
-
 /* Bloque principal */
 .testimonios {
   padding: 40px 0;
@@ -12103,7 +12083,7 @@ a:active i {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #d5e0ea4e;
+  background-color: rgba(213, 224, 234, 0.3058823529);
   border-radius: 8px;
   height: 100%;
 }
@@ -12127,3 +12107,35 @@ a:active i {
   font-weight: bold;
   color: #3d3d3d;
 }
+
+/* fOOTER */
+footer {
+  background: #171717;
+  color: #FFF;
+}
+
+a {
+  text-decoration: none;
+}
+
+a i {
+  color: #fff;
+}
+
+a:hover i,
+a:focus i,
+a:active i {
+  color: #fff;
+}
+
+.carousel-item img {
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 300px;
+  }
+}/*# sourceMappingURL=main.css.map */
